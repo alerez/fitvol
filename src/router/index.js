@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'main',
-  //   // component: () => import('../views/Main.vue'),
-  //   component: () => import('../views/MainSecond.vue')
-  // },
-  // {
-  //   path: '/thanks',
-  //   name: 'thanks',
-  //   component: () => import('../views/MainThanks.vue')
-  // },
+  {
+    path: '/',
+    name: 'main',
+    // component: () => import('../views/Main.vue'),
+    component: () => import('../views/MainSecond.vue')
+  },
+  {
+    path: '/thanks',
+    name: 'thanks',
+    component: () => import('../views/MainThanks.vue')
+  },
 ]
 
 const router = createRouter({

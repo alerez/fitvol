@@ -9,8 +9,8 @@ export const useStore = defineStore('store', {
       text: 'Заполните форму, и мы свяжемся с Вами в самое ближайшее время',
       button: 'Получить смету',
 
-      link: '/sorro',
-      link2: '/sorro/thanks'
+      link: '/',
+      link2: '/thanks'
     },
 
     mainData: {

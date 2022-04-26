@@ -5,9 +5,7 @@
         <div class="page__body">
           <Modal v-if="store.showModal"/>
           <Header/>
-<!--          <main-thanks/>  -->
-          <Main/>
-<!--          <main-second/>-->
+          <router-view/>
           <Footer v-if="showFooter"/>
         </div>
       </div>
